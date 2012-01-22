@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F24B2B14CC18EC00197E38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F24B2A14CC18EC00197E38 /* UIKit.framework */; };
+		20F24B2D14CC18EC00197E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F24B2C14CC18EC00197E38 /* Foundation.framework */; };
+		20F24B2F14CC18EC00197E38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F24B2E14CC18EC00197E38 /* CoreGraphics.framework */; };
+		20F24B3514CC18EC00197E38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20F24B3314CC18EC00197E38 /* InfoPlist.strings */; };
+		20F24B3714CC18EC00197E38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F24B3614CC18EC00197E38 /* main.m */; };
+		20F24B3B14CC18EC00197E38 /* ELAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F24B3A14CC18EC00197E38 /* ELAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20F24B2614CC18EC00197E38 /* eLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F24B2A14CC18EC00197E38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20F24B2C14CC18EC00197E38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20F24B2E14CC18EC00197E38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20F24B3214CC18EC00197E38 /* eLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eLogger-Info.plist"; sourceTree = "<group>"; };
+		20F24B3414CC18EC00197E38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20F24B3614CC18EC00197E38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20F24B3814CC18EC00197E38 /* eLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eLogger-Prefix.pch"; sourceTree = "<group>"; };
+		20F24B3914CC18EC00197E38 /* ELAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELAppDelegate.h; sourceTree = "<group>"; };
+		20F24B3A14CC18EC00197E38 /* ELAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20F24B2314CC18EC00197E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F24B2B14CC18EC00197E38 /* UIKit.framework in Frameworks */,
+				20F24B2D14CC18EC00197E38 /* Foundation.framework in Frameworks */,
+				20F24B2F14CC18EC00197E38 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F24B1B14CC18EC00197E38 = {
+			isa = PBXGroup;
+			children = (
+				20F24B3014CC18EC00197E38 /* eLogger */,
+				20F24B2914CC18EC00197E38 /* Frameworks */,
+				20F24B2714CC18EC00197E38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20F24B2714CC18EC00197E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20F24B2614CC18EC00197E38 /* eLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20F24B2914CC18EC00197E38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20F24B2A14CC18EC00197E38 /* UIKit.framework */,
+				20F24B2C14CC18EC00197E38 /* Foundation.framework */,
+				20F24B2E14CC18EC00197E38 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20F24B3014CC18EC00197E38 /* eLogger */ = {
+			isa = PBXGroup;
+			children = (
+				20F24B3914CC18EC00197E38 /* ELAppDelegate.h */,
+				20F24B3A14CC18EC00197E38 /* ELAppDelegate.m */,
+				20F24B3114CC18EC00197E38 /* Supporting Files */,
+			);
+			path = eLogger;
+			sourceTree = "<group>";
+		};
+		20F24B3114CC18EC00197E38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20F24B3214CC18EC00197E38 /* eLogger-Info.plist */,
+				20F24B3314CC18EC00197E38 /* InfoPlist.strings */,
+				20F24B3614CC18EC00197E38 /* main.m */,
+				20F24B3814CC18EC00197E38 /* eLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20F24B2514CC18EC00197E38 /* eLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F24B3E14CC18EC00197E38 /* Build configuration list for PBXNativeTarget "eLogger" */;
+			buildPhases = (
+				20F24B2214CC18EC00197E38 /* Sources */,
+				20F24B2314CC18EC00197E38 /* Frameworks */,
+				20F24B2414CC18EC00197E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eLogger;
+			productName = eLogger;
+			productReference = 20F24B2614CC18EC00197E38 /* eLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20F24B1D14CC18EC00197E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 20F24B2014CC18EC00197E38 /* Build configuration list for PBXProject "eLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 20F24B1B14CC18EC00197E38;
+			productRefGroup = 20F24B2714CC18EC00197E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20F24B2514CC18EC00197E38 /* eLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20F24B2414CC18EC00197E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F24B3514CC18EC00197E38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20F24B2214CC18EC00197E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F24B3714CC18EC00197E38 /* main.m in Sources */,
+				20F24B3B14CC18EC00197E38 /* ELAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20F24B3314CC18EC00197E38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20F24B3414CC18EC00197E38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20F24B3C14CC18EC00197E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20F24B3D14CC18EC00197E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20F24B3F14CC18EC00197E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eLogger/eLogger-Prefix.pch";
+				INFOPLIST_FILE = "eLogger/eLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		20F24B4014CC18EC00197E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eLogger/eLogger-Prefix.pch";
+				INFOPLIST_FILE = "eLogger/eLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F24B2014CC18EC00197E38 /* Build configuration list for PBXProject "eLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F24B3C14CC18EC00197E38 /* Debug */,
+				20F24B3D14CC18EC00197E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F24B3E14CC18EC00197E38 /* Build configuration list for PBXNativeTarget "eLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F24B3F14CC18EC00197E38 /* Debug */,
+				20F24B4014CC18EC00197E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20F24B1D14CC18EC00197E38 /* Project object */;
+}

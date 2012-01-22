@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:eLogger-iphone.xcodeproj">
+      location = "self:eLogger.xcodeproj">
    </FileRef>
 </Workspace>

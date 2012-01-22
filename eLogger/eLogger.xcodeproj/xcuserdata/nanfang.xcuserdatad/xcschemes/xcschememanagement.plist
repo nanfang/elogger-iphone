@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>eLogger-iphone.xcscheme</key>
+		<key>eLogger.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2083787A14CB03B70051302C</key>
+		<key>20F24B2514CC18EC00197E38</key>
 		<dict>
 			<key>primary</key>
 			<true/>

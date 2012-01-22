@@ -1,8 +1,8 @@
 //
 //  main.m
-//  eLogger-iphone
+//  eLogger
 //
-//  Created by Nan Fang on 1/21/12.
+//  Created by Nan Fang on 1/22/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
