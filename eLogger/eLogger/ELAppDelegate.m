@@ -15,6 +15,7 @@
 - (void)dealloc
 {
     [_window release];
+    [_loginViewController release];
     [super dealloc];
 }
 
@@ -24,7 +25,17 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    _loginViewController = [[ELLoginViewController alloc]init];
+    [self.window addSubview:_loginViewController.view];    
+    [self initDatabase];
+
     return YES;
+}
+
+- (void)initDatabase
+{
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
