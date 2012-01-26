@@ -39,7 +39,7 @@
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg_login.jpg"]];
     UIButton* weiboButton = [UIButton buttonWithType:UIButtonTypeCustom];
     weiboButton.backgroundColor = [UIColor clearColor];
-    [weiboButton setBackgroundImage:[UIImage imageNamed:@"btn_weibo.png"] forState:UIControlStateNormal];
+    [weiboButton setBackgroundImage:[UIImage imageNamed:@"btn-weibo.png"] forState:UIControlStateNormal];
     weiboButton.frame=CGRectMake(100, 360, 119, 22);
     [weiboButton addTarget:self action:@selector(login) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:weiboButton];

@@ -20,16 +20,22 @@
     return 30;
 }
 
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    cell.backgroundColor = [UIColor clearColor];
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    UITableViewCell *cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCell"] autorelease];
-    cell.backgroundColor = [UIColor clearColor];
-    cell.opaque = NO;
+    static NSString *CellIdentifier = @"DayLogsTableViewCell";
     
-    cell.textLabel.backgroundColor = [UIColor clearColor];
-//    cell.backgroundColor = [UIColor colorWithRed:.1 green:.1 blue:.1 alpha:0];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+    }
     
     [[cell textLabel] setText:@"1. my work"];
+
     return cell;
 }
 @end
