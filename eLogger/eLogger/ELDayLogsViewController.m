@@ -14,7 +14,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        _dayLogsData = [[ELDayLogsData alloc]init];
+        _dayLogsData = [[ELDayLogsDataSource alloc]init];
     }
     return self;
 }

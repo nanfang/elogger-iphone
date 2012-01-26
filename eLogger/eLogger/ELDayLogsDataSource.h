@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ELDayLogsData : NSObject <UITableViewDataSource, UITableViewDelegate>
+@interface ELDayLogsDataSource : NSObject <UITableViewDataSource, UITableViewDelegate>
 
 @end

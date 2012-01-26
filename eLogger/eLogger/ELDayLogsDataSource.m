@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ELDayLogsData.h"
+#import "ELDayLogsDataSource.h"
 
-@implementation ELDayLogsData 
+@implementation ELDayLogsDataSource 
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
