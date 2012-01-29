@@ -14,7 +14,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        _dayLogsData = [[ELDayLogsDataSource alloc]init];
+        
     }
     return self;
 }
@@ -42,9 +42,10 @@
     
     _tableView = [[[UITableView alloc] initWithFrame:CGRectMake(0,50,320,386)] autorelease];    
     _tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"roll-bg.png"]];
-
-    _tableView.delegate = _dayLogsData;
-    _tableView.dataSource = _dayLogsData;
+    
+    _dayLogsDataSource = [[ELDayLogsDataSource alloc]init];
+    _tableView.delegate = _dayLogsDataSource;
+    _tableView.dataSource = _dayLogsDataSource;
     _tableView.separatorColor = [UIColor clearColor];
     
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg.png"]];
@@ -62,6 +63,7 @@
 }
 */
 
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -76,7 +78,7 @@
 }
 
 - (void)dealloc {
-    [_dayLogsData release];
+    [_dayLogsDataSource release];
     [super dealloc];
 }
 

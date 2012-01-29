@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ELDayLogsDataSource : NSObject <UITableViewDataSource, UITableViewDelegate>
+@interface ELDayLogsDataSource : NSObject <UITableViewDataSource, UITableViewDelegate>{
+    NSMutableDictionary * _dayLogs;
+    NSMutableArray * _loadedMonths;
+    NSMutableDictionary * _monthDays;
+}
+
+@property(nonatomic,retain) NSDate * today;
 
 @end

@@ -28,14 +28,14 @@
     
     _loginViewController = [[ELLoginViewController alloc]init];
     [self.window addSubview:_loginViewController.view];    
-//    [self initDatabase];
+    [self initDatabase];
 
     return YES;
 }
 
 - (void)initDatabase
 {
-    
+    NSLog(@"");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

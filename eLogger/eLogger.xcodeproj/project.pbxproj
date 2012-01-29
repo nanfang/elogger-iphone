@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2002059914CDB1B400772941 /* ELDayLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002059814CDB1B300772941 /* ELDayLogsViewController.m */; };
-		201BE7EC14CE85A20005DB05 /* ELDayLogsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 201BE7EB14CE85A20005DB05 /* ELDayLogsDataSource.m */; };
 		201BE7F214CEE2270005DB05 /* ELDayLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 201BE7F114CEE2270005DB05 /* ELDayLog.m */; };
 		20263F6114D13C670060E5C9 /* btn-ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 20263F5F14D13C670060E5C9 /* btn-ok.png */; };
 		20263F6214D13C670060E5C9 /* btn-ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20263F6014D13C670060E5C9 /* btn-ok@2x.png */; };
@@ -42,13 +41,16 @@
 		20F6A09914D1975B00FD0F85 /* EGODatabaseRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F6A09414D1975B00FD0F85 /* EGODatabaseRow.m */; };
 		20F6A09A14D1975B00FD0F85 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 20F6A09514D1975B00FD0F85 /* README.markdown */; };
 		20F6A09C14D19D9000FD0F85 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F6A09B14D19D9000FD0F85 /* libsqlite3.dylib */; };
+		20F6A0A314D19F1100FD0F85 /* DBMigrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F6A0A214D19F1100FD0F85 /* DBMigrator.m */; };
+		20F6A0A614D296F500FD0F85 /* ELDayLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F6A0A514D296F500FD0F85 /* ELDayLogCell.m */; };
+		20F6A0A814D2987900FD0F85 /* ELDayLogsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F6A0A714D2987900FD0F85 /* ELDayLogsDataSource.m */; };
+		20F6A0B714D2D43C00FD0F85 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F6A0B614D2D43C00FD0F85 /* NSDate+Extensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2002059714CDB1B300772941 /* ELDayLogsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELDayLogsViewController.h; sourceTree = "<group>"; };
 		2002059814CDB1B300772941 /* ELDayLogsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELDayLogsViewController.m; sourceTree = "<group>"; };
 		201BE7EA14CE85A20005DB05 /* ELDayLogsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELDayLogsDataSource.h; sourceTree = "<group>"; };
-		201BE7EB14CE85A20005DB05 /* ELDayLogsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELDayLogsDataSource.m; sourceTree = "<group>"; };
 		201BE7F014CEE2270005DB05 /* ELDayLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELDayLog.h; sourceTree = "<group>"; };
 		201BE7F114CEE2270005DB05 /* ELDayLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELDayLog.m; sourceTree = "<group>"; };
 		20263F5F14D13C670060E5C9 /* btn-ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-ok.png"; sourceTree = "<group>"; };
@@ -93,6 +95,13 @@
 		20F6A09414D1975B00FD0F85 /* EGODatabaseRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabaseRow.m; sourceTree = "<group>"; };
 		20F6A09514D1975B00FD0F85 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		20F6A09B14D19D9000FD0F85 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		20F6A0A114D19F1100FD0F85 /* DBMigrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMigrator.h; sourceTree = "<group>"; };
+		20F6A0A214D19F1100FD0F85 /* DBMigrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMigrator.m; sourceTree = "<group>"; };
+		20F6A0A414D296F400FD0F85 /* ELDayLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELDayLogCell.h; sourceTree = "<group>"; };
+		20F6A0A514D296F500FD0F85 /* ELDayLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELDayLogCell.m; sourceTree = "<group>"; };
+		20F6A0A714D2987900FD0F85 /* ELDayLogsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELDayLogsDataSource.m; sourceTree = "<group>"; };
+		20F6A0B514D2D43C00FD0F85 /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extensions.h"; path = "../../../NSDate-Extensions/NSDate+Extensions.h"; sourceTree = "<group>"; };
+		20F6A0B614D2D43C00FD0F85 /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Extensions.m"; path = "../../../NSDate-Extensions/NSDate+Extensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +150,7 @@
 		20F24B3014CC18EC00197E38 /* eLogger */ = {
 			isa = PBXGroup;
 			children = (
+				20F6A0A914D2BC6D00FD0F85 /* Extensions */,
 				20F6A09D14D19E4800FD0F85 /* Common */,
 				20F6A07914D1970D00FD0F85 /* Libs */,
 				20F24B4414CC44F600197E38 /* Resources */,
@@ -154,9 +164,11 @@
 				2002059714CDB1B300772941 /* ELDayLogsViewController.h */,
 				2002059814CDB1B300772941 /* ELDayLogsViewController.m */,
 				201BE7EA14CE85A20005DB05 /* ELDayLogsDataSource.h */,
-				201BE7EB14CE85A20005DB05 /* ELDayLogsDataSource.m */,
+				20F6A0A714D2987900FD0F85 /* ELDayLogsDataSource.m */,
 				201BE7F014CEE2270005DB05 /* ELDayLog.h */,
 				201BE7F114CEE2270005DB05 /* ELDayLog.m */,
+				20F6A0A414D296F400FD0F85 /* ELDayLogCell.h */,
+				20F6A0A514D296F500FD0F85 /* ELDayLogCell.m */,
 			);
 			path = eLogger;
 			sourceTree = "<group>";
@@ -224,8 +236,19 @@
 		20F6A09D14D19E4800FD0F85 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				20F6A0A114D19F1100FD0F85 /* DBMigrator.h */,
+				20F6A0A214D19F1100FD0F85 /* DBMigrator.m */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		20F6A0A914D2BC6D00FD0F85 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20F6A0B514D2D43C00FD0F85 /* NSDate+Extensions.h */,
+				20F6A0B614D2D43C00FD0F85 /* NSDate+Extensions.m */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,12 +336,15 @@
 				20F24B4314CC37E400197E38 /* ELLoginViewController.m in Sources */,
 				20F24B5B14CD082B00197E38 /* ELEditViewController.m in Sources */,
 				2002059914CDB1B400772941 /* ELDayLogsViewController.m in Sources */,
-				201BE7EC14CE85A20005DB05 /* ELDayLogsDataSource.m in Sources */,
 				201BE7F214CEE2270005DB05 /* ELDayLog.m in Sources */,
 				20F6A09614D1975B00FD0F85 /* EGODatabase.m in Sources */,
 				20F6A09714D1975B00FD0F85 /* EGODatabaseRequest.m in Sources */,
 				20F6A09814D1975B00FD0F85 /* EGODatabaseResult.m in Sources */,
 				20F6A09914D1975B00FD0F85 /* EGODatabaseRow.m in Sources */,
+				20F6A0A314D19F1100FD0F85 /* DBMigrator.m in Sources */,
+				20F6A0A614D296F500FD0F85 /* ELDayLogCell.m in Sources */,
+				20F6A0A814D2987900FD0F85 /* ELDayLogsDataSource.m in Sources */,
+				20F6A0B714D2D43C00FD0F85 /* NSDate+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

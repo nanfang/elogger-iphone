@@ -13,7 +13,7 @@
     UIView * _headView;
     UIView * _tailView;
     UITableView * _tableView;
-    ELDayLogsDataSource * _dayLogsData;
+    ELDayLogsDataSource * _dayLogsDataSource;
 }
 
 @end
