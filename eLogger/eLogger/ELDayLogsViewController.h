@@ -7,13 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ELDayLogsDataSource.h"
 
-@interface ELDayLogsViewController : UIViewController{
+
+@interface ELDayLogsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
     UIView * _headView;
     UIView * _tailView;
     UITableView * _tableView;
-    ELDayLogsDataSource * _dayLogsDataSource;
+
+    
+    NSMutableDictionary * _dayLogs;
+    NSMutableArray * _loadedMonths;
+    NSMutableDictionary * _monthDays;
+    NSDate * _today;
 }
 
 @end
