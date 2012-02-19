@@ -9,7 +9,7 @@
 #import "ELDayLogCell.h"
 
 @implementation ELDayLogCell
-@synthesize year=_year, month=_month, day=_day, content=_content;
+@synthesize dayLog=_dayLog;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -43,14 +43,14 @@
 }
 
 - (void)dealloc {
-    self.content = nil;
+    self.dayLog = nil;
     [super dealloc];
 }
 
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    _titleLabel.text = [NSString stringWithFormat:@"%d-%02d-%02d", _year, _month, _day];
+    _titleLabel.text = _dayLog.title;
     [self fitContent];
     CGRect cellFrame = [self frame];
     cellFrame.size.height = self.cellHeight; 
@@ -64,7 +64,7 @@
 
 - (void)fitContent
 {
-    _contentLabel.text = self.content;
+    _contentLabel.text = _dayLog.content;
     CGRect labelFrame = _contentLabel.frame;
     labelFrame.size.width = 280;
     _contentLabel.frame = labelFrame;

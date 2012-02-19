@@ -24,6 +24,6 @@ typedef enum {
 
 @property(nonatomic, readonly) NSString* title;
 
-//+(NSArray*) logOfMonth:(int)month year:(int)year owner:(NSString*)owner;
+- (id)initWithYear:(int)year month:(int)month day:(int)day;
 
 @end

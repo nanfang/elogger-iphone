@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ELDayLog.h"
 
 @interface ELDayLogCell : UITableViewCell{
     UILabel * _titleLabel;
@@ -14,10 +15,7 @@
 }
 - (void)fitContent;
 
-@property(nonatomic) int year;
-@property(nonatomic) int month;
-@property(nonatomic) int day;
-@property(nonatomic, retain) NSString * content;
 
+@property(nonatomic, retain) ELDayLog * dayLog;
 @property(nonatomic, readonly) int cellHeight;
 @end

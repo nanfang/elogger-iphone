@@ -23,12 +23,26 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "eLogger/ELDayLogsViewController.m"
-         timestampString = "351273161.187536"
+         timestampString = "351306045.619664"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "120"
-         endingLineNumber = "120"
-         landmarkName = "-monthDays:"
+         startingLineNumber = "188"
+         endingLineNumber = "188"
+         landmarkName = "-savedDayLog:atIndexPath:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "eLogger/ELDayLogsViewController.m"
+         timestampString = "351272374.470432"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "406"
+         endingLineNumber = "406"
+         landmarkName = "-scrollViewDidEndDragging:willDecelerate:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

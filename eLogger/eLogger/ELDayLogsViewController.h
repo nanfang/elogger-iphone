@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 
 
+
 @interface ELDayLogsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
     UIView * _headView;
     UIView * _tailView;
     UITableView * _tableView;
-
     
     NSMutableDictionary * _dayLogs;
     NSMutableArray * _loadedMonths;
